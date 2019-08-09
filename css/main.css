@@ -212,14 +212,14 @@ textarea {
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
-
+/*
 @media print {
   *,
   *:before,
   *:after {
     background: transparent !important;
     color: #000 !important;
-    /* Black prints faster */
+    /* Black prints faster 
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     text-shadow: none !important;
@@ -234,10 +234,11 @@ textarea {
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
+*/
   /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
-     */
+     
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: "";

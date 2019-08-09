@@ -1,12 +1,13 @@
 body {
-    
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
 
+
+
 a:link{
-    color: #15b78d;
+    
     text-decoration: none;
 }
 
@@ -14,13 +15,43 @@ a:visited {
     color: #15b78d;
     text-decoration: none;
 }
-
-
-.fa:hover{
-    color: rgba(255, 255, 255, 0.9);
-    animation-name: fade1;
-    -moz-animation-name: fade1;
+a:hover {
+    color: #15b78d;!important
+    text-decoration: none;!important
+    
 }
+
+.email {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.9);!important
+    transform: translate(0px, 0px);
+    transition: all 0.4s ease;
+    
+}
+
+.email:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.8);
+    transform: translate(0px, -2px);
+    transition: all 0.4s ease;
+    
+}
+
+.menuIcon {
+    color: #15b78d;
+    transform: translate(0px, 0px);
+    transition: all 0.4s ease;
+}
+
+
+.menuIcon:hover{
+    color: rgba(255, 255, 255, 0.8);
+    transform: translate(0px, -2px);
+    transition: all 0.4s ease;
+    
+}
+
+
 
 .myContent{
     margin: 0;
@@ -64,17 +95,13 @@ a:visited {
     padding-top: 0;
 }
 
-@keyframes fade1 {
-    0% {
-        		-webkit-transform: translateY(0);
-		-ms-transform:     translateY(0);
-		transform:         translateY(0)
-    }
+@keyframes slideUp {
+  from {
+    top:0px;
     
-    100% {
-        		-webkit-transform: translateY(2px);
-		-ms-transform:     translateY(2px);
-		transform:         translateY(2px)
-    }
-    
+  }
+
+  to {
+    top:-3px;
+  }
 }
