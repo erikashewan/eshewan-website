@@ -17,6 +17,15 @@ html {
   line-height: 1.4;
 }
 
+body {
+    overflow: hidden;
+    height: 100vh;
+    background-image: radial-gradient(circle farthest-corner at 160% 50%, 
+    rgba(0, 170, 145, 1) 10%, 
+    rgba(0, 56, 69, 1) 100%, 
+    rgba(0, 170, 145, 0.1) 10%);
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301

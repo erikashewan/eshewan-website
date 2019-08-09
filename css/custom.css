@@ -4,6 +4,39 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+a:link{
+    color: #15b78d;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #15b78d;
+    text-decoration: none;
+}
+
+
+.fa:hover{
+    color: rgba(255, 255, 255, 0.9);
+    animation-name: fade1;
+    -moz-animation-name: fade1;
+}
+
+.myContent{
+    margin: 0;
+    margin-top: 13%;
+    
+}
+
+.textContainer {
+    margin-top: 20px;
+    
+}
+
+.me {
+    padding-right:10px;
+}
+
 .name {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
@@ -12,5 +45,36 @@ body {
 }
 
 .tagline {
+    margin-top: -10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
     color: rgba(255,255,255,0.75);
+    
+}
+
+.contactEmail {
+    margin-top: -15px;
+    font-size: 12px;
+}
+
+.socials {
+    position: absolute;
+    margin-top: -15px;
+    padding-top: 0;
+}
+
+@keyframes fade1 {
+    0% {
+        		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+    }
+    
+    100% {
+        		-webkit-transform: translateY(2px);
+		-ms-transform:     translateY(2px);
+		transform:         translateY(2px)
+    }
+    
 }
